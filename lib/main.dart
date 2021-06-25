@@ -1,11 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:sport_and_fit_app/pages/grafik.dart';
 
 import 'pages/bacak.dart';
 import 'pages/baslangic.dart';
 import 'pages/bilgiler.dart';
 import 'pages/bolgeler.dart';
 import 'pages/giris-ekrani.dart';
+import 'pages/grafik.dart';
 import 'pages/kalca.dart';
 import 'pages/kardiyo.dart';
 import 'pages/karin.dart';
@@ -33,6 +35,7 @@ class SporUyg extends StatelessWidget {
         '/tumvucut': (context) => TumVucutEkrani(),
         '/kardiyo': (context) => KardiyoEkrani(),
         '/bilgi': (context) => BilgiEkrani(),
+        '/grafik': (context) => GrafikEkrani(),
       },
     );
   }

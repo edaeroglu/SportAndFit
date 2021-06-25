@@ -12,6 +12,7 @@ class _BilgiEkraniState extends State<BilgiEkrani> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.yellow[100],
       appBar: AppBar(
         backgroundColor: Colors.cyan[800],
         title: Text('Bilgilerinizi giriniz:'),
@@ -142,7 +143,7 @@ class _BilgiEkraniState extends State<BilgiEkrani> {
                         return AlertDialog(
                           title: new Text("Hakkında"),
                           content: new Text(
-                              "Bu uygulama Dr. Öğretim Üyesi Ahmet Cevahir ÇINAR tarafından yürütülen 3301456 kodlu MOBİL PROGRAMLAMA dersi kapsamında 193301043 numaralı Eda Eroğlu tarafından 30 Nisan 2021 günü yapılmıştır."),
+                              "Bu uygulama Dr. Öğretim Üyesi Ahmet Cevahir ÇINAR tarafından yürütülen 3301456 kodlu MOBİL PROGRAMLAMA dersi kapsamında 193301043 numaralı Eda Eroğlu tarafından 25 Haziran 2021 günü yapılmıştır."),
                         );
                       },
                     );

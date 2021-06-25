@@ -31,7 +31,7 @@ class _BolgeEkraniState extends State<BolgeEkrani> {
                   Expanded(
                     child: Column(
                       children: [
-                        InkWell(
+                        GestureDetector(
                           onTap: () {
                             Navigator.push(
                                 context,
@@ -72,7 +72,7 @@ class _BolgeEkraniState extends State<BolgeEkrani> {
                   Expanded(
                     child: Column(
                       children: [
-                        InkWell(
+                        GestureDetector(
                           onTap: () {
                             Navigator.push(
                                 context,
@@ -119,7 +119,7 @@ class _BolgeEkraniState extends State<BolgeEkrani> {
                   Expanded(
                     child: Column(
                       children: [
-                        InkWell(
+                        GestureDetector(
                           onTap: () {
                             Navigator.push(
                                 context,
@@ -160,7 +160,7 @@ class _BolgeEkraniState extends State<BolgeEkrani> {
                   Expanded(
                     child: Column(
                       children: [
-                        InkWell(
+                        GestureDetector(
                           onTap: () {
                             Navigator.push(
                                 context,
@@ -207,7 +207,7 @@ class _BolgeEkraniState extends State<BolgeEkrani> {
                   Expanded(
                     child: Column(
                       children: [
-                        InkWell(
+                        GestureDetector(
                           onTap: () {
                             Navigator.push(
                                 context,
@@ -248,7 +248,7 @@ class _BolgeEkraniState extends State<BolgeEkrani> {
                   Expanded(
                     child: Column(
                       children: [
-                        InkWell(
+                        GestureDetector(
                           onTap: () {
                             Navigator.push(
                                 context,

@@ -1,4 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:sport_and_fit_app/pages/burpees.dart';
+import 'package:sport_and_fit_app/pages/butt-kick.dart';
+import 'package:sport_and_fit_app/pages/halat-idmanı.dart';
+import 'package:sport_and_fit_app/pages/high-knee-run.dart';
+import 'package:sport_and_fit_app/pages/ip-atlama.dart';
 
 class KardiyoEkrani extends StatelessWidget {
   @override
@@ -18,16 +23,26 @@ class KardiyoEkrani extends StatelessWidget {
                 children: [
                   Row(
                     children: [
-                      Container(
-                        width: 200,
-                        height: 160,
-                        margin: EdgeInsets.only(top: 20, left: 10),
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(10),
-                          shape: BoxShape.rectangle,
-                          image: DecorationImage(
-                              image: AssetImage('assets/images/ip atlama.jpg'),
-                              fit: BoxFit.fill),
+                      InkWell(
+                        onTap: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => IpAtlama(),
+                              ));
+                        },
+                        child: Container(
+                          width: 200,
+                          height: 160,
+                          margin: EdgeInsets.only(top: 20, left: 10),
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(10),
+                            shape: BoxShape.rectangle,
+                            image: DecorationImage(
+                                image:
+                                    AssetImage('assets/images/ip atlama.jpg'),
+                                fit: BoxFit.fill),
+                          ),
                         ),
                       ),
                       Padding(
@@ -41,17 +56,26 @@ class KardiyoEkrani extends StatelessWidget {
                   ),
                   Row(
                     children: [
-                      Container(
-                        width: 200,
-                        height: 160,
-                        margin: EdgeInsets.only(top: 20, left: 10),
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(10),
-                          shape: BoxShape.rectangle,
-                          image: DecorationImage(
-                              image:
-                                  AssetImage('assets/images/halat idmanı.jpg'),
-                              fit: BoxFit.fill),
+                      InkWell(
+                        onTap: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => HalatIdmani(),
+                              ));
+                        },
+                        child: Container(
+                          width: 200,
+                          height: 160,
+                          margin: EdgeInsets.only(top: 20, left: 10),
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(10),
+                            shape: BoxShape.rectangle,
+                            image: DecorationImage(
+                                image: AssetImage(
+                                    'assets/images/halat idmanı.jpg'),
+                                fit: BoxFit.fill),
+                          ),
                         ),
                       ),
                       Padding(
@@ -65,17 +89,26 @@ class KardiyoEkrani extends StatelessWidget {
                   ),
                   Row(
                     children: [
-                      Container(
-                        width: 200,
-                        height: 160,
-                        margin: EdgeInsets.only(top: 20, left: 10),
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(10),
-                          shape: BoxShape.rectangle,
-                          image: DecorationImage(
-                              image:
-                                  AssetImage('assets/images/high knee run.jpg'),
-                              fit: BoxFit.fill),
+                      InkWell(
+                        onTap: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => HighKneeRun(),
+                              ));
+                        },
+                        child: Container(
+                          width: 200,
+                          height: 160,
+                          margin: EdgeInsets.only(top: 20, left: 10),
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(10),
+                            shape: BoxShape.rectangle,
+                            image: DecorationImage(
+                                image: AssetImage(
+                                    'assets/images/high knee run.jpg'),
+                                fit: BoxFit.fill),
+                          ),
                         ),
                       ),
                       Padding(
@@ -89,16 +122,26 @@ class KardiyoEkrani extends StatelessWidget {
                   ),
                   Row(
                     children: [
-                      Container(
-                        width: 200,
-                        height: 160,
-                        margin: EdgeInsets.only(top: 20, left: 10),
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(10),
-                          shape: BoxShape.rectangle,
-                          image: DecorationImage(
-                              image: AssetImage('assets/images/butt kick.jpg'),
-                              fit: BoxFit.fill),
+                      InkWell(
+                        onTap: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => ButtKick(),
+                              ));
+                        },
+                        child: Container(
+                          width: 200,
+                          height: 160,
+                          margin: EdgeInsets.only(top: 20, left: 10),
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(10),
+                            shape: BoxShape.rectangle,
+                            image: DecorationImage(
+                                image:
+                                    AssetImage('assets/images/butt kick.jpg'),
+                                fit: BoxFit.fill),
+                          ),
                         ),
                       ),
                       Padding(
@@ -112,23 +155,32 @@ class KardiyoEkrani extends StatelessWidget {
                   ),
                   Row(
                     children: [
-                      Container(
-                        width: 200,
-                        height: 160,
-                        margin: EdgeInsets.only(top: 20, left: 10),
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(10),
-                          shape: BoxShape.rectangle,
-                          image: DecorationImage(
-                              image: AssetImage('assets/images/burpees.jpg'),
-                              fit: BoxFit.fill),
+                      InkWell(
+                        onTap: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => Burpees(),
+                              ));
+                        },
+                        child: Container(
+                          width: 200,
+                          height: 160,
+                          margin: EdgeInsets.only(top: 20, left: 10),
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(10),
+                            shape: BoxShape.rectangle,
+                            image: DecorationImage(
+                                image: AssetImage('assets/images/burpees.jpg'),
+                                fit: BoxFit.fill),
+                          ),
                         ),
                       ),
                       Padding(
                         padding: const EdgeInsets.only(left: 8.0),
                         child: Text(
                           "Burpees",
-                          style: TextStyle(color: Colors.black87, fontSize: 21),
+                          style: TextStyle(color: Colors.black87, fontSize: 23),
                         ),
                       )
                     ],
